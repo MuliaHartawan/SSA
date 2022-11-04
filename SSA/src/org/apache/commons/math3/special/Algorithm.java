@@ -109,7 +109,7 @@ public class Algorithm {
     					for (int m=0; m<fasilitas; m++) {
     						fitness[i] = fitness[i] + (0.5 * frekuensi1[j][l] * jarak[k][m] * 
     							   x[j][k] * x[l][m]) + 0.5 * (frekuensi2[j][l] * jarak[k][m] * 
-    							   x[j][k] * x[l][m]));
+    							   x[j][k] * x[l][m]);
     					}
     				}	
     					
